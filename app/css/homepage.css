@@ -1,0 +1,256 @@
+.row {
+    margin-right: 0px;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+a.nav-link {
+    font-size: 12px;
+    font-weight: bold;
+    color: white !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+ul>li>a.nav-link:hover {
+    color: #92D400 !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+.btn-success {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2px;
+    background-color: #92D400;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0.35rem 0.25rem;
+    border-radius: 9px;
+}
+
+.navlogo {
+    height: 36px;
+}
+
+.bgnd-sec {
+    background: url("../../app/images/banner-img.png") no-repeat;
+    min-height: 780px;
+    background-size: cover;
+}
+
+.bgnd-sec2 {
+    background: url("../../app/images/Group%2047.png") no-repeat;
+    min-height: 1200px;
+    background-size: cover;
+}
+
+.section-one {
+    margin-top: 287px;
+    padding: 27px 0px 0px 51px;
+}
+
+h4 {
+    font-weight: 220;
+}
+
+.btn-sec {
+    margin-top: 45px;
+}
+
+.watch-video-btn {
+    background-color: rgba(0, 0, 255, 0);
+    border-color: #92D400;
+    padding: 10px 25px 10px 25px;
+    font-weight: 600;
+}
+
+.view-industry-btn {
+    background-color: #92D400;
+    border-color: #94D400;
+    padding: 10px 25px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.box {
+    border: 1px solid grey;
+    text-align: center;
+    width: 246px;
+    height: 300px;
+    padding-top: 66px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #707070;
+}
+
+.text-color {
+    color: #707070;
+}
+
+.heading-color {
+    color: #0A1015;
+}
+
+.section-two {
+    max-width: 1220px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.circular-img {
+    position: absolute;
+    bottom: 251px;
+    left: 84px;
+    z-index: 10;
+    border: 1px solid grey;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.circular-img>img {
+    width: 80px;
+    margin-left: 8px;
+}
+
+.four-pillars {
+    text-align: center;
+    margin-top: 75px;
+    color: #707070;
+}
+
+.section-two {
+    padding-top: 70px;
+}
+
+.img-box {
+    border: 1px solid lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img-box>img {
+    width: 100px;
+}
+
+.section-three {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.section-four {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.row-two {
+    margin-top: 40px;
+}
+
+.img-review {
+    width: 100px;
+}
+
+.mid-section {
+    display: -webkit-box;
+    margin-top: 40px;
+    border: 1px solid white;
+    padding-top: 20px;
+    background-color: white;
+    padding-left: 140px;
+}
+
+.text-area {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+div.section-four>div.row>div.col-sm-4>div.img-box>img {
+    width: 160px;
+}
+
+.tool_icon {
+    margin-top: 10px;
+}
+
+.tool_icon2 {
+    margin-top: -16px;
+}
+
+.tool_icon4 {
+    width: 115px !important;
+}
+
+.img-operate {
+    width: 70px !important;
+}
+
+.img-desc {
+    padding-top: 15px;
+    font-sizE: 1.5rem;
+}
+
+.monitor,
+.deploy {
+    padding-top: 30px;
+}
+
+.dimgray {
+    background-color: dimgray;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.load-more {
+    background-color: dimgray;
+    border-radius: 10px;
+    color: white;
+    margin-left: 45%;
+    padding: 5px 20px 5px 20px;
+    margin-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-us-div {
+    width: 28%;
+    border: 1px solid black;
+    border-radius: 28px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.write-a-msg {
+    padding: 20px;
+    width: 364px;
+}
