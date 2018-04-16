@@ -187,8 +187,9 @@ h4 {
 }
 .row .fa{
     position: absolute;
-    right: 0;
+    right: -10%;
     top: 50%;
+    font-size: 25px;
 }
 .row .fa.fa-chevron-left{
     right: 100%;
