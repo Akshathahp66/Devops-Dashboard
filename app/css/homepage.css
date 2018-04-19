@@ -45,7 +45,11 @@ ul>li>a.nav-link:hover {
 .navlogo {
     height: 36px;
 }
-
+hr{
+    border-top: 5px solid #92D400;
+    margin: 0 auto 10px;
+    width: 5%;
+}
 .bgnd-sec {
     background: url("../../app/images/banner-img.png") no-repeat;
     min-height: 780px;
@@ -55,8 +59,9 @@ ul>li>a.nav-link:hover {
 .bgnd-sec2 {
     background: url("../../app/images/Group%2047.png") no-repeat;
     min-height: 1200px;
-    background-size: cover;
+    background-size: 127%;
     background-color: #fafafa;
+    background-position: 36% 0%;
 }
 
 .section-one {
