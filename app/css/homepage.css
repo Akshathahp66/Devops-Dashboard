@@ -62,10 +62,14 @@ ul>li>a.nav-link:hover {
 .section-one {
     margin-top: 287px;
     padding: 27px 0px 0px 51px;
+    color: #fff;
 }
-
-h4 {
+.section-one h1{
+    font-size: 50px;
+}
+.section-one h4 {
     font-weight: 220;
+    font-size: 30px;
 }
 
 .btn-sec {
@@ -88,7 +92,6 @@ h4 {
 }
 
 .box {
-    border: 1px solid grey;
     text-align: center;
     width: 246px;
     height: 300px;
@@ -97,6 +100,9 @@ h4 {
     padding-right: 10px;
     color: #707070;
     background: #fff;
+    -webkit-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
 }
 
 .text-color {
@@ -106,10 +112,14 @@ h4 {
 .heading-color {
     color: #0A1015;
 }
-
+.box hr{
+    border-top: 5px solid #92D400;
+    margin: 0 auto 10px;
+    width: 25%;
+}
 .section-two {
     max-width: 1220px;
-    padding-left: 200px;
+    margin: 0 auto;
     padding-top: 100px;
 }
 
@@ -187,7 +197,7 @@ h4 {
 }
 .row .fa{
     position: absolute;
-    right: -10%;
+    right: -13%;
     top: 50%;
     font-size: 25px;
 }
@@ -206,7 +216,11 @@ h4 {
     background-color: white;
     width: 100%;
 }
-
+.mid-section .carousel-inner{
+    background: url("../../app/images/quotes.png") no-repeat;
+    background-size: contain;
+    background-position: 14%;
+}
 .text-area {
     margin-left: 80px;
     margin-top: 10px;
@@ -267,19 +281,31 @@ div.section-four>div.row>div.col-sm-4>div.img-box>img {
 }
 
 .contact-us-div {
-    width: 28%;
-    border: 1px solid black;
+    width: 30%;
     border-radius: 28px;
-    padding-left: 15px;
-    padding-right: 10px;
-    padding-top: 30px;
+    padding: 30px 15px 0;
     margin: 0 auto;
+    text-align: center;
     background: #fff;
+    -webkit-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
 }
-
-.write-a-msg {
-    padding: 20px;
-    width: 365px;
+.contact-us-div textarea{
+    border: 0;
+    border-radius: 4px;
+    color: #d2d2d2;
+    padding: 0 10px;
+    height: 40px;
+    -webkit-box-shadow: 0px 1px 6px 1px rgba(210,210,210,1);
+    -moz-box-shadow: 0px 1px 6px 1px rgba(210,210,210,1);
+    box-shadow: 0px 1px 6px 1px rgba(210,210,210,1);
+}
+.contact-us-div textarea.write-a-msg {
+    padding: 10px 20px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
 }
 .carousel-indicators li{
     background-color: #dcdcdc;
