@@ -98,8 +98,7 @@ hr{
 
 .box {
     text-align: center;
-    width: 246px;
-    height: 300px;
+    height: 350px;
     padding-top: 66px;
     padding-left: 10px;
     padding-right: 10px;
@@ -109,7 +108,9 @@ hr{
     -moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
     box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
 }
-
+.bgnd-sec2 .row.section-two .col-sm-3{
+    padding: 0 7px;
+}
 .text-color {
     color: #707070;
 }
@@ -130,10 +131,11 @@ hr{
 
 .circular-img {
     position: absolute;
-    bottom: 251px;
-    left: 84px;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 10;
-    border: 1px solid grey;
+    border: 1px solid #6B6B6B;
     background-color: white;
     width: 100px;
     height: 100px;
@@ -179,10 +181,13 @@ hr{
 }
 
 .section-four {
-    width: 50%;
+    width: 65%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 70px;
+}
+.section-four .circular-img>img{
+    width: 85%;
 }
 .section-three .row .col-sm-3{
     margin: 0 25px;
