@@ -167,19 +167,21 @@ hr{
 }
 .modal .circular-img{
     position: relative;
-    left: 0;
+    left: -60px;
     display: inline-block;
-    top: -41px;
+    top: -70px;
     border: 0;
     box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
 }
 .modal .text-wrapper{
     display: inline-block;
+    width: 50%;
+    text-align: left;
 }
 .modal hr{
     position: absolute;
-    width: 6%;
-    left: 7%;
+    width: 7%;
+    left: 10%;
     top: 65%;
     margin-top: 1%;
 }
