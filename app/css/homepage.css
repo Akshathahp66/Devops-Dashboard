@@ -99,14 +99,24 @@ hr{
 .box {
     text-align: center;
     height: 350px;
-    padding-top: 66px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 66px 15px;
     color: #707070;
     background: #fff;
     -webkit-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
     box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    position: relative;
+}
+.box .details-button{
+    position: absolute;
+    left: 0;
+    background: #d2d2d2;
+    color: #94D400;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 .bgnd-sec2 .row.section-two .col-sm-3{
     padding: 0 7px;
@@ -149,7 +159,33 @@ hr{
     margin-left: 4px;
     margin-bottom: 4px;
 }
-
+.modal .modal-dialog{
+    max-width: 65%;
+    margin: 0 auto;
+    left: -1%;
+    top: 5%;
+}
+.modal .circular-img{
+    position: relative;
+    left: 0;
+    display: inline-block;
+    top: -41px;
+    border: 0;
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+}
+.modal .text-wrapper{
+    display: inline-block;
+}
+.modal hr{
+    position: absolute;
+    width: 6%;
+    left: 7%;
+    top: 65%;
+    margin-top: 1%;
+}
+.modal .modal-header{
+    border: 0;
+}
 .four-pillars {
     text-align: center;
     padding-top: 75px;
