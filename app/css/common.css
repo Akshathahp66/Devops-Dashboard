@@ -1,0 +1,25 @@
+header{
+    background: #000;
+}
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+a.nav-link {
+    font-size: 12px;
+    font-weight: bold;
+    color: white !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+ul>li>a.nav-link:hover {
+    color: #92D400 !important;
+}
+.navlogo {
+    height: 36px;
+}

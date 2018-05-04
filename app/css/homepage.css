@@ -1,27 +1,6 @@
 .row {
     margin-right: 0px;
 }
-
-.navbar {
-    padding-top: 20px;
-}
-
-.navbar-nav {
-    flex-direction: row;
-}
-
-a.nav-link {
-    font-size: 12px;
-    font-weight: bold;
-    color: white !important;
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
-}
-
-ul>li>a.nav-link:hover {
-    color: #92D400 !important;
-}
-
 /* Fixes dropdown menus placed on the right side */
 
 .ml-auto .dropdown-menu {
@@ -42,9 +21,6 @@ ul>li>a.nav-link:hover {
     border-radius: 9px;
 }
 
-.navlogo {
-    height: 36px;
-}
 hr{
     border-top: 5px solid #92D400;
     margin: 0 auto 10px;
@@ -222,7 +198,7 @@ hr{
     width: 65%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .section-four .circular-img>img{
     width: 85%;
@@ -298,7 +274,7 @@ div.section-four>div.row>div.col-sm-4>div.img-box>img {
 
 .img-desc {
     padding-top: 15px;
-    font-sizE: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .monitor,
@@ -366,4 +342,23 @@ div.section-four>div.row>div.col-sm-4>div.img-box>img {
 }
 .carousel-item div {
     display: inline-block;
+}
+.row .col-sm-2 img{
+    width: 100%;
+}
+.row .industry-ctr{
+    text-align: left;
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    position: relative;
+    left: -3%;
+    z-index: 2;
+    padding: 2%;
+    margin-top: -1%;
+    border-right: 3px solid #94D400;
+}
+.row .img-ctr{
+    z-index: 3;
 }
