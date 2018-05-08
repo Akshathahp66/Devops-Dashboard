@@ -188,10 +188,11 @@ hr{
 }
 
 .section-three {
-    width: 50%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 85px;
+    background: url("../../app/images/Arrows-ANimation.gif") no-repeat;
+    background-size: cover;
+    padding: 12% 0;
 }
 
 .section-four {
@@ -207,17 +208,23 @@ hr{
     margin: 0 25px;
 }
 
-.row-two {
-    margin-top: 40px;
+.section-three .row {
+    margin-top: 0;
     position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-three .row-two {
+    margin-top: 3%;
 }
 .row-two .mid-cycle{
     position: absolute;
     top: -60%;
-    left: -30%;
+    left: -43%;
 }
 .row-two .mid-cycle.right{
-    left: 95%;
+    left: 100%;
 }
 .row .fa{
     position: absolute;
@@ -343,7 +350,7 @@ div.section-four>div.row>div.col-sm-4>div.img-box>img {
 .carousel-item div {
     display: inline-block;
 }
-.row .col-sm-2 img{
+.row .col-sm-2.img-ctr img{
     width: 100%;
 }
 .row .industry-ctr{
