@@ -80,6 +80,7 @@ hr{
     padding: 10px;
     font-size: 20px;
     letter-spacing: 1px;
+    border: 0;
 }
 .bgnd-sec2 .row.section-two .col-sm-3{
     padding: 0 7px;
@@ -234,10 +235,15 @@ hr{
     background-color: white;
     width: 100%;
 }
-.mid-section .carousel-inner{
+.mid-section .carousel-inner .bg-img{
     background: url("../../app/images/quotes.png") no-repeat;
     background-size: contain;
     background-position: 14%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.4;
 }
 .text-area {
     margin-left: 80px;
@@ -318,6 +324,7 @@ div.section-four>div.row>div.col-sm-4>div.img-box>img {
     -webkit-box-shadow: 0px 1px 6px 1px rgba(210,210,210,1);
     -moz-box-shadow: 0px 1px 6px 1px rgba(210,210,210,1);
     box-shadow: 0px 1px 6px 1px rgba(210,210,210,1);
+    width: 49%;
 }
 .contact-us-div textarea.write-a-msg {
     padding: 10px 20px 20px;
