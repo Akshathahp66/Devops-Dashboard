@@ -35,3 +35,8 @@ ul>li>a.nav-link:hover {
     padding: 0.35rem 0.25rem;
     border-radius: 9px;
 }
+.survey-card{
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
