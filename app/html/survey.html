@@ -1,10 +1,28 @@
-<div class="card survey-card">
-    <div class="card-header">
-        Featured
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn survey-btn" data-toggle="modal" data-target="#exampleModal">
+        Survey Link
+        <i class="fa fa-window-maximize" aria-hidden="true"></i>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal survey-card" id="exampleModal" tabindex="-1" role="dialog" data-backdrop=false aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Survey Link</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-window-minimize" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              Thank you for collaborating with us. 
+              Please fill out a small survey <a href="" class="green-link">HERE</a>
+              Our team will get in touch with you.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn no-btn" data-dismiss="modal">I am not interested</button>
+              <button type="button" class="btn yes-btn">Take me to survey</button>
+            </div>
+          </div>
+        </div>
+      </div>

@@ -28,12 +28,17 @@ hr{
 }
 
 .section-one {
-    margin-top: 287px;
+    margin-top: 187px;
     padding: 27px 0px 0px 51px;
     color: #fff;
 }
 .section-one h1{
     font-size: 50px;
+}
+.section-one .hero-gif{
+    position: relative;
+    top: -71px;
+    left: -28%;
 }
 .section-one h4 {
     font-weight: 220;
@@ -41,7 +46,7 @@ hr{
 }
 
 .btn-sec {
-    margin-top: 45px;
+    margin-top: -71px;
 }
 
 .watch-video-btn {
@@ -57,6 +62,7 @@ hr{
     padding: 10px 25px;
     font-weight: 600;
     margin-left: 10px;
+    color: #fff;
 }
 
 .box {
