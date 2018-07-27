@@ -83,3 +83,9 @@ ul>li>a.nav-link:hover {
 body.modal-open{
     overflow: auto;
 }
+.error-bg{
+    background: url("../../app/images/OE60SH0.jpg") no-repeat;
+    min-height: 690px;
+    background-size: contain;
+    background-position: center;
+}
